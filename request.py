@@ -93,14 +93,3 @@ def kill_switch(symbol):
         else:
             print('Positions closed')
 
-# # Example usage:
-# api_key = 'your_api_key'
-# api_secret = 'your_api_secret'
-# initialize_phemex(api_key, api_secret)
-
-# # Now you can use the functions in a cleaner way
-# create_limit_order('buy', 'BTC/USD', 1, 50000)
-# cancel_all_orders('BTC/USD')
-# open_positions('BTC/USD')
-# ask_bid('BTC/USD')
-# kill_switch('BTC/USD')
